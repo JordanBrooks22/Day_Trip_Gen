@@ -3,7 +3,7 @@
    let destinations = ["Navarre, Florida", "Dora, New-Mexico", "Loveland, Colorado", "Atlanta, Georgia"];
    let restaurant = ["Applebees", "Subway", "Outback", "I-Hop"];
    let transportation = ["Mustang", "Bike", "Snow-mobile", "Audi"];
-   let randomNumber = Math.floor(Math.random() * entertainment.length);
+   let activities = ["go to the movies", "go on a walk", "go to park", "go iceskating"];
 
 
    let userTrip = [ getRandomElement(destinations), getRandomElement(transportation), getRandomElement(restaurant), getRandomElement(activities) ];
